@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553249594887",
+    "project_id": "modaktestone",
+    "storage_bucket": "modaktestone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553249594887:android:fbd5200634a5a2909f54a2",
+        "android_client_info": {
+          "package_name": "com.example.modaktestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553249594887-2ce5tsbvltkrrfm2mt7tofr8ks7048ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjJ33rFU9BeLjd8YemvPZrz0b1P6qs_o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553249594887-2ce5tsbvltkrrfm2mt7tofr8ks7048ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

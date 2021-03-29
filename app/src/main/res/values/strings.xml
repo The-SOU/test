@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MODAKTestOne</string>
+
+    <!-- Sign In -->
+    <string name="signin_phonenumber">휴대폰번호로 로그인</string>
+    <string name="signin_naver">네이버로 로그인</string>
+    <string name="signin_kakao">카카오톡으로 로그인</string>
+    <string name="signin_button_textsize">25sp</string>
+
+    <!-- bottom navigation main -->
+    <string name="home">홈</string>
+    <string name="board">게시판</string>
+    <string name="alarm">알림</string>
+    <string name="account">내 정보</string>
+
+    <!-- 알림 메시지 -->
+    <string name="alarm_favorite">가 당신의 글을 공감하였습니다.</string>
+    <string name="alarm_comment">가 당신의 글에 댓글을 달았습니다.</string>
+</resources>

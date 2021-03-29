@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modaktestone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".kakao.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MODAKTestOne">
+        <activity android:name=".navigation.DetailContentActivity"></activity>
+        <activity android:name=".navigation.SelectedContentActivity" />
+        <activity android:name=".navigation.AddContentActivity" />
+        <activity android:name=".navigation.BoardContentActivity" />
+        <activity android:name=".navigation.SelectRegionActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth“ -->
+                <data
+                    android:host="oauth"
+                    android:scheme="kakaoe55c02914e0d51f60e971b486733ed22" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
